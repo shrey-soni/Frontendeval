@@ -57,7 +57,9 @@ export default function FaqComponent() {
                     <div className="faq_component_arrow">{"▶️"}</div>
                     <div className="faq_component_description">
                         <div className="faq_component_question">{item.question}</div>
-                        <div className="faq_component_answer" hidden>{item.answer}</div>
+                        <div className="faq_component_answer" hidden onClick={(event)=>{
+                            event.stopPropagation();
+                        }}>{item.answer}</div>
                     </div>
                 </div>);
         })}
