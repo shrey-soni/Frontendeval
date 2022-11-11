@@ -9,7 +9,7 @@ export default function FaqComponent({item}){
     return (<div id="faq_component" className="faq_component">
         <div className="faq_component_arrow">{"▶️"}</div>
         <div className="faq_component_description">
-            <div className="faq_component_question">{item.question}</div>
+            <div className="faq_component_question">{item.question}1</div>
             <div className="faq_component_answer">{item.answer}</div>
         </div>
     </div>);
