@@ -1,5 +1,40 @@
+.faq_component_list{
+    margin-top: 10px;
+}
+
 .faq_component{
     display: flex;
     min-width: 200px;
-    background-color: red;
+    background-color: lightslategray;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    flex-direction: row;
+    gap: 10px;
+    transition: faq_component_answer 0.8s linear;
+}
+
+.faq_component_arrow{
+    min-width: 10px;
+    max-width: 10px;
+    min-height: 10px;
+    max-height: 10px;
+}
+
+.faq_component_description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+  
+
+.faq_component_question{
+    font-weight: bolder;
+    text-align: start;
+}
+
+.faq_component_answer{
+    font-style: italic;
+    text-align: start;
 }
