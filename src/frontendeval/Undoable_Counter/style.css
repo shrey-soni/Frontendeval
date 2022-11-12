@@ -1,0 +1,53 @@
+.undoable_counter{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uc_undo_redo_btns{
+    display: flex;
+    gap: 20px;
+}
+
+.uc_btn{
+    width: 50px;
+    height: 30px;
+    background-color: lightslategrey;
+}
+
+.uc_count_modifiers{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.uc_modifiers{
+    display: flex;
+    gap:10px;
+}
+
+.uc_m_positive{
+    display: flex;
+    gap:10px;
+    flex-direction: row-reverse;
+}
+
+.uc_history{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uc_history_list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.uc_history_item{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
