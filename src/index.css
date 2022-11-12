@@ -1,5 +1,8 @@
 @import './frontendeval/FAQ_Component/style.css';
 @import './frontendeval/Undoable_Counter/style.css';
+@import './frontendeval/Analog_Clock/style.css';
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

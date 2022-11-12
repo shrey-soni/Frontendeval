@@ -1,0 +1,53 @@
+.analog_clock{
+    display: flex;
+    justify-content: center;
+}
+
+.ac_dial{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ac_holder{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.ac_second_hand{
+    width: 180px;
+    height: 1px;
+    background: linear-gradient(to right, red 50%, transparent 50%);
+    transform-origin: center;
+    position: absolute;
+    transition: transform 1s linear;
+}
+
+.ac_minute_hand{
+    width: 170px;
+    height: 2px;
+    background: linear-gradient(to right, black 50%, transparent 50%);
+    position: absolute;
+    transition: transform 1s linear;
+}
+
+.ac_hour_hand{
+    width: 140px;
+    height: 3px;
+    background: linear-gradient(to right, black 50%, transparent 50%);
+    position: absolute;
+    transition: transform 1s linear;
+}
