@@ -7,7 +7,6 @@ import { JobBoard } from './frontendeval/job_board/job_board';
 
 
 function App() {
-  
   return (
     <div className="App">
       {/* <FaqComponent /> */}

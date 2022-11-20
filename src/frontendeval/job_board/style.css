@@ -7,3 +7,10 @@
 .job_board > * {
     margin: 20px 0;
 }
+
+.jb_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 20px;
+}
