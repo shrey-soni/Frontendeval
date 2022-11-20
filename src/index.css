@@ -1,7 +1,8 @@
-@import './frontendeval/FAQ_Component/style.css';
-@import './frontendeval/Undoable_Counter/style.css';
-@import './frontendeval/Analog_Clock/style.css';
-
+@import './frontendeval/faq_component/style.css';
+@import './frontendeval/undoable_counter/style.css';
+@import './frontendeval/analog_clock/style.css';
+@import './frontendeval/data_fetching_visualizer/style.css';
+@import './frontendeval/job_board/style.css';
 
 body {
   margin: 0;

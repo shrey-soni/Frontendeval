@@ -1,0 +1,9 @@
+
+.job_board{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.job_board > * {
+    margin: 20px 0;
+}

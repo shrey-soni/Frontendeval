@@ -1,0 +1,43 @@
+.plotter{
+    padding: 30px;
+}
+
+.graph{
+    width: 600px;
+    height: 400px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.y_axis{
+    width: 20px;
+    height: 400px;
+    border: 1px solid black;
+    transform: translate(-21px);
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.origin_x_axis{
+    display:flex;
+}
+
+.origin{
+    /* border: 1px solid black; */
+    width: 20px;
+    height: 20px;
+    transform: translate(-21px);
+    /* background-color: lightslategray; */
+}
+
+
+
+.x_axis{
+    width: 600px;
+    height: 20px;
+    border: 1px solid black;
+    /* transform: translate(-20px); */
+    background-color: lightcoral;
+}
