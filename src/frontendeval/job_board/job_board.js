@@ -14,9 +14,7 @@ class JobBoard extends React.Component {
   // functionality
 
   componentDidMount() {
-    setTimeout(() => {
       this.fetchAllJobIdsSetFirst9Jobs();
-    }, 500);
   }
 
   getApiFromJobId(jobId) {
@@ -80,9 +78,10 @@ class JobBoard extends React.Component {
           batch.appendChild(jobCard);
         }
         elem.appendChild(batch);
-        this.lastFilled=id;
+        
         return 
       }).then(()=>{
+        this.lastFilled=id;
         this.fetchMoreOffset = offset + limit;
       });
   }
