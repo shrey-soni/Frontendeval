@@ -7,6 +7,8 @@
 
 - **Analog Clock** ( [*problem*](https://frontendeval.com/questions/analog-clock) , [*solution*](https://github.com/shrey-soni/Frontendeval/blob/master/src/frontendeval/Analog_Clock/analog_clock.js) )
 
+- **Job Board** ( [*problem*](https://frontendeval.com/questions/job-board) , [*solution*](https://github.com/shrey-soni/Frontendeval/blob/master/src/frontendeval/job_board/job_board.js) )
+
 ### [Frontendeval](https://frontendeval.com/)
 
 
